@@ -1,0 +1,54 @@
+﻿  Source.cpp
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(19,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Создание кода
+  Compiler switch has changed, fall back to full compilation.
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(95): warning C4715: check: значение возвращается не при всех путях выполнения
+  
+  --- Анализ функции: void __cdecl fill(unsigned __int64,unsigned __int64,float * __ptr64 * __ptr64,int)
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(18) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(17) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: bool __cdecl check(float * __ptr64 * __ptr64,float * __ptr64 * __ptr64)
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(87) : info C5002: цикл не векторизирован по следующей причине: "500"
+  
+  --- Анализ функции: class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64 __cdecl std::operator<<<struct std::char_traits<char> >(class std::basic_ostream<char,struct std::char_traits<char> > & __ptr64,char const * __ptr64)
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\ostream(748) : info C5002: цикл не векторизирован по следующей причине: "500"
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\ostream(761) : info C5002: цикл не векторизирован по следующей причине: "500"
+  
+  --- Анализ функции: void __cdecl AVX_mul(int,int,int,float * __ptr64 * __ptr64,float * __ptr64 * __ptr64,float * __ptr64 * __ptr64)
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(69) : info C5002: цикл не векторизирован по следующей причине: "1305"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(65) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(62) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: void __cdecl auto_vec_mul(int,int,int,float * __ptr64 * __ptr64,float * __ptr64 * __ptr64,float * __ptr64 * __ptr64)
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(32) : info C5001: векторизированный цикл
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(28) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(25) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: void __cdecl no_vec_mul(int,int,int,float * __ptr64 * __ptr64,float * __ptr64 * __ptr64,float * __ptr64 * __ptr64)
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(51) : info C5002: цикл не векторизирован по следующей причине: "1400"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(46) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(43) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  
+  --- Анализ функции: main
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(103) : info C5002: цикл не векторизирован по следующей причине: "503"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(110) : info C5002: цикл не векторизирован по следующей причине: "503"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(116) : info C5002: цикл не векторизирован по следующей причине: "503"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(122) : info C5002: цикл не векторизирован по следующей причине: "503"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(87) : info C5002: цикл не векторизирован по следующей причине: "500"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(18) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(17) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(18) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(17) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(51) : info C5002: цикл не векторизирован по следующей причине: "1400"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(46) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(43) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(132) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(69) : info C5002: цикл не векторизирован по следующей причине: "1305"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(65) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(62) : info C5002: цикл не векторизирован по следующей причине: "1106"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(150) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(159) : info C5002: цикл не векторизирован по следующей причине: "1200"
+  All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  AVP_lab_1.vcxproj -> D:\Visual Studio\6\AVP_lab_1\x64\Release\AVP_lab_1.exe

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Visual Studio\6\AVP_lab_2\AVP_lab_2\Source.cpp(19,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Studio\6\AVP_lab_2\AVP_lab_2\Source.cpp(81): warning C4715: check: значение возвращается не при всех путях выполнения
+  AVP_lab_2.vcxproj -> D:\Visual Studio\6\AVP_lab_2\x64\Debug\AVP_lab_2.exe

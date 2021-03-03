@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Visual Studio\6\AVP_lab_3\AVP_lab_3\Source.cpp(42,19): warning C4244: =: преобразование "ull" в "size_t", возможна потеря данных
+D:\Visual Studio\6\AVP_lab_3\AVP_lab_3\Source.cpp(64,24): warning C4018: <: несоответствие типов со знаком и без знака
+  AVP_lab_3.vcxproj -> D:\Visual Studio\6\AVP_lab_3\Debug\AVP_lab_3.exe

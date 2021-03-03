@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(17,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(18,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(19,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(80,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(82,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Visual Studio\6\AVP_lab_1\AVP_lab_1\Source.cpp(106): warning C4715: check: значение возвращается не при всех путях выполнения
+  AVP_lab_1.vcxproj -> D:\Visual Studio\6\AVP_lab_1\Debug\AVP_lab_1.exe

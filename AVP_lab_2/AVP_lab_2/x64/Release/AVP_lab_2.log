@@ -1,0 +1,9 @@
+﻿  Source.cpp
+D:\Visual Studio\6\AVP_lab_2\AVP_lab_2\Source.cpp(19,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Создание кода
+D:\Visual Studio\6\AVP_lab_2\AVP_lab_2\Source.cpp(81): warning C4715: check: значение возвращается не при всех путях выполнения
+  4 of 17 functions (23.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  AVP_lab_2.vcxproj -> D:\Visual Studio\6\AVP_lab_2\x64\Release\AVP_lab_2.exe
