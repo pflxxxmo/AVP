@@ -81,7 +81,7 @@ __global__ void transform_cuda(int* source, int* dest) {
 
 	__syncthreads();
 
-	dest[blockIdx.y * COLUMNS_DEV / 4 + blockIdx.x * COLUMNS_DEV / 4 / gridDim.x + threadIdx.y * COLUMNS_DEV * ROWS_DEV / 4 + threadIdx.x] = *(int*)(memory[threadIdx.y] + 4 * threadIdx.x); //cuda memcheck
+	dest[blockIdx.y * COLUMNS_DEV / 4 + blockIdx.x * COLUMNS_DEV / 4 / gridDim.x + threadIdx.y * COLUMNS_DEV * ROWS_DEV / 4 + threadIdx.x] = *(int*)(memory[threadIdx.y] + 4 * threadIdx.x);
 }
 
 void transform_cuda(char* source, char* dest) {
@@ -101,17 +101,17 @@ void transform_cuda(char* source, char* dest) {
 	checkCuda(cudaEventCreate(&start));
 	checkCuda(cudaEventCreate(&stop));
 
-	checkCuda(cudaEventRecord(start));
 
 	checkCuda(cudaMemcpy(dev_source, source, columns * rows, cudaMemcpyHostToDevice));
 	checkCuda(cudaMemcpyToSymbol(COLUMNS_DEV, &col, sizeof(int)));
 	checkCuda(cudaMemcpyToSymbol(ROWS_DEV, &row, sizeof(int)));
+	checkCuda(cudaEventRecord(start));
 
 	transform_cuda << < dimGrid, dimBlock >> > (dev_source, dev_result);
 
-	checkCuda(cudaMemcpy(dest, dev_result, rows * columns, cudaMemcpyDeviceToHost));
 	checkCuda(cudaEventRecord(stop));
 	checkCuda(cudaEventSynchronize(stop));
+	checkCuda(cudaMemcpy(dest, dev_result, rows * columns, cudaMemcpyDeviceToHost));
 
 	float time;
 	checkCuda(cudaEventElapsedTime(&time, start, stop));
