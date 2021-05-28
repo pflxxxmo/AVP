@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -N run run-mpi-cuda
+#PBS -l nodes=5:ppn=1
+#PBS -l mem=10gb
+#PBS -j oe
+#PBS -q batch
+
+cd #PBS_O_WORKDIR
+
+free 1>free-`hostname`-run.out&&
+
+echo $PATH
+echo $LD_LIBRARY_PATH
+cat $PBS_NODEFILE
+echo kekw
+
+/usr/lib64/openmpi/bin/mpirun -hostfile $PBS_NODEFILE /home/shared/evm/stud/s8500/u850503/Osetnik_Doroh/test/testAVP
